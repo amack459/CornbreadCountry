@@ -1,6 +1,12 @@
 body{
-  background-color: yellow;
+  background-color: black;
+  color: #FFED2B;
   font-size: 24;
+}
+
+img{
+  height: 10%;
+  width: 10%;
 }
 
 .fa{
