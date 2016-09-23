@@ -1,7 +1,7 @@
 body{
   background-color: black;
   color: #FFED2B;
-  font-size: 24;
+  margin: 50px 50px;
 }
 
 img{
@@ -11,4 +11,26 @@ img{
 
 .fa{
   color: white;
+}
+
+ul{
+  display: inline-block;
+  list-style: none;
+  border: 2px dotted white;
+  width: 100%;
+}
+
+li{
+  display: inline;
+  /*padding: 20px 20px;*/
+  margin: 0 auto;
+  text-align: center;
+}
+
+p{
+  clear: both;
+}
+
+footer{
+  text-align: center; 
 }
