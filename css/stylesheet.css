@@ -33,8 +33,10 @@ ul.nav.navbar-nav{
   margin: 5% 5%;
 }
 
-div.cornbread > img{
-  vertical-align: middle;
+#cornbread > img{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 div.content{
   background-color: white;
