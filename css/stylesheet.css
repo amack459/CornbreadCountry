@@ -26,6 +26,34 @@ h2{
   padding: 50px;
 }
 
+ul.bullets{
+  font-size: 18px;
+  margin: 20 auto;
+}
+
+ul.bullets > li{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+span.names{
+  color: #FAF203;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+section.locals{
+  padding: 25px 25px;
+  font-size: 16px;
+}
+
+section.locals > img{
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+}
+
 i.fa, a.tabs{
   color: black;
 }
