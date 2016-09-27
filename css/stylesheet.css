@@ -29,6 +29,8 @@ h2{
 ul.bullets{
   font-size: 18px;
   margin: 20 auto;
+  padding-right: 45px;
+  padding-left: 45px;
 }
 
 ul.bullets > li{
@@ -43,7 +45,8 @@ span.names{
 }
 
 section.locals{
-  padding: 25px 25px;
+  padding-right: 45px;
+  padding-left: 45px;
   font-size: 16px;
 }
 
@@ -51,7 +54,15 @@ section.locals > img{
   width: 30%;
   display: block;
   margin: 0 auto;
-  padding: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+#chef{
+  text-align: center;
+  font-style: italic;
 }
 
 i.fa, a.tabs{
@@ -119,8 +130,9 @@ section.home > ul {
   list-style: none;
   font-size: 16px;  
   line-height: 50px;
-  padding-right: 20px;
-  padding-left: 20px;
+  text-align: center; 
+ /* padding-right: 20px;
+  padding-left: 20px;*/
 }
 
 
