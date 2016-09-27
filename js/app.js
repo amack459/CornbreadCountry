@@ -1,7 +1,7 @@
 window.onload = function(){
 
-  var about = document.getElementById("about-content");
-  var reviews = document.getElementById("reviews-content");
+  var about = document.getElementById("about_content");
+  var reviews = document.getElementById("reviews_content");
 
   about.style.display = "none";
   reviews.style.display = "none";
@@ -17,7 +17,7 @@ window.onload = function(){
      for(var j = 0; j<content.length; j++){
       content[j].style.display = "none";
      }
-     document.getElementById(this.id + "-content").style.display = "block";
+     document.getElementById(this.id + "_content").style.display = "block";
     })
 
   }

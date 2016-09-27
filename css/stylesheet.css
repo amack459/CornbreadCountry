@@ -1,12 +1,16 @@
 body{
+  font-family:'Raleway', sans-serif;
   background-color: #FAF203;
   color: black;
-  margin: 0 1%;
+  margin: 1% 1%;
 }
 
 h1{
+  font-family: 'Arya', sans-serif;
+  text-align: center;
+  font-size: 50px;
   float: right;
-  margin-right: 30%;
+  margin-right: 35%;
   margin-top: 5%;
 }
 
@@ -14,14 +18,34 @@ i.fa, a.tabs{
   color: black;
 }
 
-.fa-facebook:hover, .fa-twitter:hover{
+.fa-facebook:hover, .fa-twitter:hover, .fa-cutlery:hover, .fa-envelope-o:hover {
   color: #F9F339;
 }
 
-i.fa.fa-facebook, i.fa.fa-twitter{
+a:focus{
+  outline: 0;
+
+}
+
+i.fa.fa-facebook{
   float: right;
-  margin-right: 5%;
-  margin-top: -2%;
+  /*margin-left: 10%;*/
+  margin-right: 6%;
+  margin-top: -4%;
+}
+
+i.fa.fa-twitter{
+  float: right;
+/*  margin-left: 5%;*/
+  margin-right: 10%;
+  margin-top: -4%;
+}
+
+i.fa.fa-envelope-o{
+    float: right;
+  /*  margin-left: 5%;*/
+    margin-right: 15%;
+    margin-top: -4%;
 }
 
 ul.nav >li > a:hover, ul.nav >li > a:focus {
@@ -30,7 +54,13 @@ ul.nav >li > a:hover, ul.nav >li > a:focus {
 }
 
 ul.nav.navbar-nav{
-  margin: 5% 5%;
+  margin: 6% 5%;
+}
+
+#slogan{
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
 }
 
 #cornbread > img{
@@ -38,9 +68,26 @@ ul.nav.navbar-nav{
   display: block;
   margin: 0 auto;
 }
+
+section.viewMenu{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+section.home > ul {
+  list-style: none;
+  font-size: 16px;  
+  line-height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
 div.content{
   background-color: white;
   margin: 1% 1%;
+  height: 100%
 }
 
 .tab_content{
@@ -52,6 +99,17 @@ img#cornbread{
   width: 100px;
   height: 100px;
   margin: 0 auto;
+}
+
+/*#review_content{
+  height: 100%;
+  overflow: hidden;
+}*/
+
+.reviews{
+  /*border: 2px solid black;*/
+ /* padding: 10px;*/
+  /*margin: 15px 15px;*/
 }
 
 header{
