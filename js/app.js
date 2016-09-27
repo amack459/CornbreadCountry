@@ -1,14 +1,12 @@
 window.onload = function(){
 
   var about = document.getElementById("about_content");
-  var reviews = document.getElementsByClassName("reviews");
+  var reviews = document.getElementById("reviews_content");
 
-for(i = 0; i<reviews.length; i++){
-  reviews[i].style.display = "none";
-}
-console.log(reviews);
   about.style.display = "none";
-  
+  reviews.style.display = "none";
+  console.log(about);
+  console.log(reviews);
   
   var tabs = document.getElementsByClassName("tabs");
 
@@ -21,9 +19,9 @@ console.log(reviews);
      for(var j = 0; j<content.length; j++){
       content[j].style.display = "none";
      }
-     console.log(this);
      document.getElementById(this.id + "_content").style.display = "block";
-    
+     console.log(content);
+
     })
 
   }
