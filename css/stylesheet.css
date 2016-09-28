@@ -13,11 +13,18 @@ h1{
   color: black;
 }
 
+h3{
+  font-family: 'Arya', sans-serif;
+  text-align: center;
+  font-size: 20px;
+
+}
+
 h2{
   text-align: center;
 }
 
-#meatloaf>img {
+#meatloaf>img, #veggies>img {
   width: 75%;
   display: block;
   margin: 0 auto;
@@ -89,24 +96,15 @@ a:focus{
 
 i.fa.fa-facebook{
   float: right;
-  /*margin-left: 10%;*/
   margin-right: 6%;
-  margin-top: -19%;
+  margin-top: -10%;
 }
 
 i.fa.fa-twitter{
   float: right;
   clear: top;
-/*  margin-left: 5%;*/
   margin-right: 10%;
-  margin-top: -19%;
-}
-
-i.fa.fa-envelope-o{
-/*  margin: 0 auto;*/
-  /*  margin-left: 5%;*/
-  /*  margin-right: 15%;
-    margin-top: -4%;*/
+  margin-top: -10%;
 }
 
 ul.nav >li > a:hover, ul.nav >li > a:focus {
@@ -117,31 +115,32 @@ ul.nav >li > a:hover, ul.nav >li > a:focus {
 nav.menu{
   text-align: center;
   vertical-align: middle;  
-  margin: 6% 16%;
+  /*margin: 6% 10%;*/
 
 }
 
 ul.nav.navbar-nav{
-  float: none;
+ float: none;
  /*text-align: center;*/
- vertical-align: middle;  
- margin: 0 auto;
- width: 35%;
-  
-
-  /*clear: top;*/
+/* vertical-align: middle;*/  
+ margin: 0 40%;
+ width: 30%;
 }
 
 #slogan{
   font-size: 24px;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
 }
 
-#cornbread > img{
-  width: 50%;
+#cornbread>img{
+  width: 35%;
   display: block;
   margin: 0 auto;
+}
+
+#chewies>img{
+
 }
 
 section.viewMenu{
@@ -158,18 +157,14 @@ section.viewMenu2{
 }
 
 section.ordering{
-/*  width: 80%;*/
-/*  position: absolute;*/
   text-align: center;
-/*  padding-top: 24px;*/
- /* padding-bottom: -50px;*/
 }
 
 section.home > ul {
   list-style: none;
   font-size: 16px;  
-  line-height: 50px;
-  text-align: center; 
+  line-height: 25px;
+  text-align: justify; 
   padding-right: 15%;
   padding-left: 15%;
 }
@@ -186,37 +181,38 @@ div.content{
   flex-wrap: wrap;
 }
 
-img#cornbread{
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
-
-/*#review_content{
-  height: 100%;
-  overflow: hidden;
-}*/
-
-/*div.reviews_content{
-  margin: 0 auto;
-  width: 30%;
-
-}*/
-
 .reviews > span{
   font-style: italic;
   color: #FAF203;
 }
 .reviews{
   width: 20%; 
-  /*height: 275px;*/
- /* border: 2px solid yellow;*/
   padding: 10px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
 
-footer{
- text-align: center;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
 }
