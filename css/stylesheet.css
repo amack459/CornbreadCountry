@@ -197,10 +197,23 @@ img#cornbread{
   overflow: hidden;
 }*/
 
+/*div.reviews_content{
+  margin: 0 auto;
+  width: 30%;
+
+}*/
+
+.reviews > span{
+  font-style: italic;
+  color: #FAF203;
+}
 .reviews{
-  /*border: 2px solid black;*/
- /* padding: 10px;*/
-  /*margin: 15px 15px;*/
+  width: 20%; 
+  /*height: 275px;*/
+ /* border: 2px solid yellow;*/
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
