@@ -4,12 +4,6 @@ window.onload = function(){
   var reviews = document.getElementById("reviews_content");
   var order = document.getElementById("order_content");
 
- 
-
-  console.log(home);
-
-
-
   about.style.display = "none";
   reviews.style.display = "none";
   order.style.display = "none";
