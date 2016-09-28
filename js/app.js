@@ -2,11 +2,20 @@ window.onload = function(){
 
   var about = document.getElementById("about_content");
   var reviews = document.getElementById("reviews_content");
+  var order = document.getElementById("order_content");
+
+ 
+
+  console.log(home);
+
+
 
   about.style.display = "none";
   reviews.style.display = "none";
-  console.log(about);
-  console.log(reviews);
+  order.style.display = "none";
+
+
+ 
   
   var tabs = document.getElementsByClassName("tabs");
 
@@ -19,10 +28,11 @@ window.onload = function(){
      for(var j = 0; j<content.length; j++){
       content[j].style.display = "none";
      }
-     document.getElementById(this.id + "_content").style.display = "block";
-     console.log(content);
+     document.getElementById(this.id + "_content").style.display = "block" ; 
 
     })
 
   }
+
+
 }

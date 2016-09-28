@@ -9,9 +9,7 @@ h1{
   font-family: 'Arya', sans-serif;
   text-align: center;
   font-size: 50px;
-/*  float: right;
-  margin-right: 35%;
-  margin-top: 5%;*/
+  padding-top: 5%;
   color: black;
 }
 
@@ -75,7 +73,7 @@ i, a.tabs{
   color: #F9F339;
 }
 
-a:hover{
+a, a:hover{
   text-decoration: none;
 }
 
@@ -87,7 +85,7 @@ i.fa.fa-facebook{
   float: right;
   /*margin-left: 10%;*/
   margin-right: 6%;
-  margin-top: -20%;
+  margin-top: -19%;
 }
 
 i.fa.fa-twitter{
@@ -95,7 +93,7 @@ i.fa.fa-twitter{
   clear: top;
 /*  margin-left: 5%;*/
   margin-right: 10%;
-  margin-top: -20%;
+  margin-top: -19%;
 }
 
 i.fa.fa-envelope-o{
@@ -113,7 +111,7 @@ ul.nav >li > a:hover, ul.nav >li > a:focus {
 nav.menu{
   text-align: center;
   vertical-align: middle;  
-  margin: 6% 5%;
+  margin: 6% 16%;
 
 }
 
