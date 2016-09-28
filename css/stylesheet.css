@@ -5,6 +5,10 @@ body{
   margin: 1% 1%;
 }
 
+/*header{
+  position: fixed;
+}*/
+
 h1{
   font-family: 'Arya', sans-serif;
   text-align: center;
@@ -24,12 +28,47 @@ h2{
   text-align: center;
 }
 
-#meatloaf>img, #veggies>img {
-  width: 75%;
-  display: block;
-  margin: 0 auto;
-  padding: 50px;
+section#meatloaf{
+  height: 175px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  background:  url(public/meatloaf.png) no-repeat fixed cover;
+  background-image:url(public/meatloaf.png);
+  background-size: cover;
+  width: 100%;
 }
+
+section#veggies{
+  height: 175px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  background:  url(public/veggies.png) no-repeat fixed cover;
+  background-image:url(public/veggies.png);
+  background-size: cover;
+  width: 100%;
+}
+
+/*.header{
+  position: relative;
+}*/
+
+section#rice{
+  height: 205px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  background:  url(public/rice.png) no-repeat center cover;
+  background-image:url(public/rice.png);
+  background-size: cover;
+  width: 100%;
+  padding: 0px !important;
+}
+
 
 ul.bullets{
   font-size: 18px;
@@ -53,12 +92,14 @@ span.names{
 section.locals{
   padding-right: 45px;
   padding-left: 45px;
+  padding-bottom: 30px;
   font-size: 16px;
 }
 
 section.order > p{
   padding-right: 20%;
   padding-left: 20%;
+  padding-bottom: 30px;
   font-size: 18px;
 }
 
@@ -139,9 +180,6 @@ ul.nav.navbar-nav{
   margin: 0 auto;
 }
 
-#chewies>img{
-
-}
 
 section.viewMenu{
   text-align: center;
@@ -181,13 +219,27 @@ div.content{
   flex-wrap: wrap;
 }
 
-.reviews > span{
+.reviews >li > span{
   font-style: italic;
   color: #FAF203;
+  font-weight: bold;
 }
+
+ul.reviews{
+  list-style: none;
+  font-size: 16px;
+  margin: 20 auto;
+  padding-right: 45px;
+  padding-left: 45px;
+  padding-bottom: 30px;
+}
+
+ul.reviews > li{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
 .reviews{
-  width: 20%; 
-  padding: 10px;
   margin-left: 5%;
   margin-right: 5%;
 }

@@ -22,6 +22,7 @@ window.onload = function(){
      for(var j = 0; j<content.length; j++){
       content[j].style.display = "none";
      }
+     event.preventDefault();
      document.getElementById(this.id + "_content").style.display = "block" ; 
 
     })
