@@ -5,10 +5,6 @@ body{
   margin: 1% 1%;
 }
 
-/*header{
-  position: fixed;
-}*/
-
 h1{
   font-family: 'Arya', sans-serif;
   text-align: center;
@@ -29,7 +25,7 @@ h2{
 }
 
 section#meatloaf{
-  height: 175px;
+  height: 200px;
   margin: 0px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -41,7 +37,7 @@ section#meatloaf{
 }
 
 section#veggies{
-  height: 175px;
+  height: 200px;
   margin: 0px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -93,8 +89,7 @@ span.names{
 
 section.locals{
   padding-right: 45px;
-  padding-left: 45px;
-  padding-bottom: 30px;
+  padding-left: 45px; 
   font-size: 16px;
 }
 
@@ -108,7 +103,7 @@ section.info{
 section.order > p{
   padding-right: 20%;
   padding-left: 20%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-size: 18px;
 }
 
@@ -189,22 +184,38 @@ ul.nav.navbar-nav{
   margin: 0 auto;
 }
 
+section.viewMenu2{
+text-align: center;
+margin-right: 5%;
+margin-bottom: 1%;
+}
+
+section#orders1{
+  text-align: center;
+  margin-left: 12%;
+  margin-top: -5%;
+  padding-bottom: 20px;
+}
+
+section#orders2{
+  text-align: center;
+  margin-left: 12%;
+  margin-top: -5%;
+  padding-bottom: 10px;
+}
+
+section#orders3{
+  text-align: center;
+  margin-left: 12%;
+  margin-top: -5%;
+  padding-bottom: 15px;
+}
+
 
 section.viewMenu{
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-section.viewMenu2{
-  text-align: center;
-  position: relative;
-  padding-top: 10px;
-  padding-bottom: 30px;
-}
-
-section.ordering{
-  text-align: center;
+  padding-bottom: 20px;
 }
 
 section.home > ul {
@@ -219,8 +230,7 @@ section.home > ul {
 
 div.content{
   background-color: white;
-  margin: 1% 1%;
-
+  margin: 1% 1%;  
 }
 
 .tab_content{
@@ -240,7 +250,6 @@ ul.reviews{
   margin: 20 auto;
   padding-right: 45px;
   padding-left: 45px;
-  padding-bottom: 30px;
 }
 
 ul.reviews > li{
