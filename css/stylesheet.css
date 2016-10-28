@@ -314,12 +314,12 @@ and (max-device-width : 1024px)  {
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
+/*@media only screen and (max-width : 480px) {
 
-}
+}*/
 
 /* Custom, iPhone Retina */ 
-@media only screen and (min-device-width: 320px) {
+/*@media only screen and (min-device-width: 320px) {
       i, a.tabs{
         color: black;
         font-size: 35px;
@@ -413,4 +413,4 @@ and (max-device-width : 1024px)  {
       #chef{
         font-size: 14px;
       }
-}
+}*/
