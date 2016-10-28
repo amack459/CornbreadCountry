@@ -254,16 +254,16 @@ section#orders3{
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+/*@media only screen and (max-width : 1200px) {
   i, a.tabs{
     color: black;
     font-size: 12px;
   }
 
-}
+}*/
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+/*@media only screen and (min-width : 992px) {
   i, a.tabs{
     color: black;
     font-size: 16px;
@@ -301,7 +301,7 @@ section#orders3{
     background-color: white;
     margin: 2%;  
   }
-}
+}*/
 
 /* Small Devices, Tablets */
 @media only screen 
